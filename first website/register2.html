@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <style>
+        input[type="submit"] {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Register</h1>
+    </header>
+    <!-- use "POST" not "GET" -->
+     <nav>
+    <a href="index.html">Home</a><br>
+    <a href="https://www.google.com" target="_blank">Google</a> |
+     </nav>
+<div class="container">
+     <div class= "main content" style="background-color: lightblue; border: 1px solid blue; padding: 10px;">
+        Box 1: I take up the full width.
+    </div>
+    <div style="background-color: lightgreen; border: 1px solid green; padding: 10px;">
+        Box 2: I start on a new line.
+    </div>
+
+    <aside>
+        <h3>Sidebar widget</h3>
+        <p>this sits right next to the main content.</p>
+    </aside>
+</div>
+     <p>
+  This is a sentence where I use a 
+  <span style="color: red; font-weight: bold;">red span</span> 
+  and a 
+  <span style="background-color: yellow;">yellow span</span> 
+  without breaking the line.
+    </p>
+    <footer>
+        what a nice footer
+    </footer>
+    <ul>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+    </ul>
+    <ol>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+    </ol>
+    <article>
+        <h2>Registration Information</h2>
+        <p>Please fill out the form below to register.</p>
+    </article>
+    <form method="GET" >
+        First Name:<input type="text" name=""firstname"><Br>
+        Last name:<input type="text" name="lastname"><br>
+        Email:<input type="email" name="email" required><br>
+        Password: <input type="password" min="5"><br>
+        Birthday: <input type="date" name="birthday"><br>
+        Gender:<br>
+        <input type="radio" name="gender" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" name="gender" value="other">Other<br>
+        Pets: <br>
+        <input type="checkbox" name="cat"> Cat<br>
+        <input type="checkbox" name="dog"> Dog<br>
+        Cars: <br>
+        <select name="cars" id="cars" multiple size="3" style="height: 80px;" style="width: 150px;">
+            <option value="volvo" name="volvo">Volvo</option>
+            <option value="saab" name="saab">Saab</option>
+            <option value="fiat" name="fiat">Fiat</option>
+            <option value="audi" name="audi">Audi</option>
+        </select><br>
+        <textarea rows="5" cols="20">A big load of text</textarea><br>
+        <input type="submit" value="Register">
+        <input type="reset">
+        im
+    </form>
+
+</body>
+</html>

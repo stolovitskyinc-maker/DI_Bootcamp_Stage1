@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>programing-langages</title>
+    <style>
+    /* 1. Global Page Styles */
+    body {
+      font-family: "Times New Roman", Times, serif;
+      color: #000000;
+      background-color: #ffffff;
+      line-height: 1.4;
+      margin: 20px;
+    }
+
+    /* 2. Typography & Headings */
+    h1, h2, h3, h4 {
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    
+    /* Small regular text used for hints and subtext */
+    p {
+      font-size: 16px;
+      margin: 8px 0;
+    }
+
+    /* 3. Header Links (Navbar) */
+    header a {
+      color: #0000ff;          /* Standard blue link color */
+      text-decoration: underline; 
+      margin-right: 8px;       /* Puts a small gap between Home, About, Contact */
+    }
+
+    /* 4. Table Layout Formatting */
+    table {
+      border-collapse: collapse;
+      margin-top: 10px;
+      margin-bottom: 25px;
+    }
+    
+    th, td {
+      text-align: left;
+      padding: 4px 25px 4px 0px; /* Right padding keeps columns neatly separated */
+      vertical-align: top;
+    }
+
+    /* 5. Form Elements Layout */
+    form {
+      margin-bottom: 30px;
+    }
+
+    /* Vertically aligns text box labels slightly */
+    label {
+      display: inline-block;
+      margin-bottom: 6px;
+    }
+
+    /* Simple style to stack checkbox and radio options nicely */
+    .form-group {
+      margin-bottom: 6px;
+    }
+
+    input[type="submit"] {
+      font-family: "Times New Roman", Times, serif;
+      padding: 2px 10px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+    <header>
+       <p>Inside of the header - let's add a navbar with some essential links</p>
+       <nav>
+        <a href="Home" name="Home">Home</a>
+        <a href="About" name="About">About</a>
+        <a href="Contact" name="Contact">Contact</a>
+       </nav>
+    </header><hr>
+    <main>
+        <h1>Here is the main section of our page - it consists of a new articles</h1>
+        <h1>Article 1 - 1995 was a pretty crazy year for programming languages</h1>
+        <p>Don't believe me? Just check this table out:</p>
+
+<table>
+    <!-- Header Row -->
+  <tr>
+    <th>Language</th>
+    <th>Designed By</th>
+    <th>First Appeared</th>
+  </tr>
+  
+  <!-- Data Rows -->
+  <tr>
+    <td>C++</td>
+    <td>Bjarne Stroustrup</td>
+    <td>1983</td>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>Guido van Rossum</td>
+    <td>1991</td>
+  </tr>
+  <tr>
+    <td>Ruby</td>
+    <td>Yukihiro Matsumoto ("Matz")</td>
+    <td>1995</td>
+  </tr>
+  <tr>
+    <td>JavaScript</td>
+    <td>Brendan Eich</td>
+    <td>1995</td>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>James Gosling</td>
+    <td>1995</td>
+  </tr>
+  <tr>
+    <td>PHP</td>
+    <td>Rasmus Lerdorf</td>
+    <td>1995</td>
+  </tr>
+</table>
+
+<H1>Article 2 - Coming soon...</H1>
+
+<h1>Contact us!</h1>
+
+<h1>General Information</h1>
+
+<form action="">
+  <label for="First Name">First Name:</label>
+  <input type="text" name="First Name" id="First Name"><br>
+  <label for="Last Name">Last Name:</label>
+  <input type="text" name="Last Name" id="Last Name"><br>
+  <label for="Email">Email:</label>
+  <input type="email" name="Email" id="Email"><br>
+  <label for="Date of Birth">Date of Birth:</label>
+  <input type="date" name="Date of Birth" id="Date of Birth"><br>
+</form>
+
+<h1>Essential Questions</h1>
+
+<p>what kind of work do you need?</p>
+<label for="Programming">Programming:</label>
+<input type="checkbox" name="Programing" id="Programming"><br>
+<label for="DESIGN">Design:</label>
+<input type="checkbox" id="Design" name="Design"><br>
+<label for="Signing">Signing:</label>
+<input type="checkbox" id="Signing" name="Signing"><br>
+<label for="Comedy">Comedy:</label>
+<input type="checkbox" id="Comedy" name="Comedy"><br>
+<br>
+
+<p>How interested are you in our design skills?</p>
+<label for="Very Low">Very Low</label>
+<input type="radio" name="Interest" id="Very Low"><br>
+<label for="Low">Low</label>
+<input type="radio" name="Interest" id="Low"><br>
+<label for="Medium">Medium</label>
+<input type="radio" name="Interest" id="Medium"><br>
+<label for="High">High</label>
+<input type="radio" name="Interest" id="High"><br>
+<label for="Very High">Very High</label>
+<input type="radio" name="Interest" id="Very High"><br>
+
+<input type="submit" value="Submit me!">
+<footer>
+  <p>Here is our footer - let's make sure we copyright &copy; this!</p>
+</footer>
+</body>
+</html>
