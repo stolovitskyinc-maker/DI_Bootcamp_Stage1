@@ -1,0 +1,68 @@
+html {
+  background-color: rgb(234, 149, 74);
+  font-style: italic;
+  font-family: sans-serif; /* Matches the clean font style in the image */
+}
+
+/* Outer frame container enclosing all elements */
+div {
+  max-width: 650px;
+  margin: 40px auto;
+  background-color: rgb(255, 242, 160);
+  border: dashed 3px black;
+  padding: 0; /* Keep at 0 so the H1 divider line touches the side borders */
+}
+
+/* Header styling with a bottom divider line */
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 20px 10px;
+  border-bottom: dashed 3px black; /* Creates the separating line from the image */
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+/* Paragraph styling for both the top description and the footer link */
+p {
+  text-align: left; /* Aligns description text like the image */
+  margin: 0;
+  padding: 20px 30px; /* Adds clean spacing inside the box sides */
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Specific alignment for the footer paragraph link */
+p:last-of-type {
+  text-align: center; /* Centers the bottom link text like the image */
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-size: 0.85rem;
+}
+
+/* Poem container alignment */
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 10px auto;
+}
+
+/* Poem lines */
+ul li {
+  margin-bottom: 4px;
+  font-size: 1.05rem;
+}
+
+/* Drop-cap styling for the first letter of each line */
+ul li::first-letter {
+  font-size: 1.4rem; /* Adjusted to blend naturally with the text line height */
+  font-weight: bold;
+  font-style: normal; /* Keeps initial letters upright */
+}
+
+/* Link color styling */
+a {
+  color: blue;
+  text-decoration: underline;
+}

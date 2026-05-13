@@ -1,0 +1,19 @@
+html {
+  background-color: rgb(65, 164, 177);
+}
+
+/* 1. Center and clean the list container */
+ul {
+  max-width: 650px;       /* Limits width so the sonnet lines look natural */
+  margin: 40px auto;      /* Centers the entire poem block horizontally */
+  padding: 0;             /* Strips the default browser indent padding */
+  list-style-type: none;  /* Removes the bullet points/dots entirely */
+  text-align: center;     /* Centers each line of the poem */
+}
+
+/* 3. Enlarge the first letter of each line */
+ul li::first-letter {
+  font-size: 2.2rem;      /* Enlarges the initial letter */
+  font-weight: bold;      /* Makes the large letter thick */
+  vertical-align: sub;    /* Lowers the large letter slightly for a neat baseline alignment */
+}
