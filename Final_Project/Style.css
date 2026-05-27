@@ -1,0 +1,146 @@
+/* Global Reset and Variables */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f6;
+}
+
+/* Header / Hero Layout */
+.hero {
+    background: linear-gradient(135deg, #4b6cb7, #182848);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Layout Container */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.Skills hr {
+    border: none;
+    border-top: 2px solid #4b6cb7;
+    margin: 30 px 0;
+}
+
+/* Typography & Content Sections */
+h2 {
+    color: #182848;
+    border-bottom: 2px solid #4b6cb7;
+    padding-bottom: 8px;
+    margin: 30px 0 15px;
+}
+p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+/* Image Styling */
+.profile-pic {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 25px 0;
+}
+
+.profile-pic img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Timeline Styling */
+.timeline {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.timeline li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.timeline li::before {
+    content: "•";
+    color: #4b6cb7;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -4px;
+}
+
+/* Sidebar / Quote Card */
+.quote-box {
+    background-color: #eef2f7;
+    border-left: 5px solid #4b6cb7;
+    padding: 20px;
+    margin: 40px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+    display: block;
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #182848;
+    color: #fff;
+    margin-top: 60px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
